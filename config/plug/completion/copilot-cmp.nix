@@ -4,7 +4,7 @@
     enable = lib.mkDefault false;
   };
   plugins.copilot-lua = {
-    enable = true;
+    enable = lib.mkDefault false;
     suggestion = {enabled = false;};
     panel = {enabled = false;};
   };
