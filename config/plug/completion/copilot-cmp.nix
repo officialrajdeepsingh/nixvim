@@ -1,6 +1,7 @@
+{lib, ...}:
 {
   plugins.copilot-cmp = {
-    enable = true;
+    enable = lib.mkDefault false;
   };
   plugins.copilot-lua = {
     enable = true;
